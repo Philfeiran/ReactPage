@@ -1,0 +1,22 @@
+.List{
+    width: 600px;
+   
+    justify-content:center;
+}
+.List-header{
+    flex-direction: column;
+}
+.List-body{
+    justify-content:center;
+}
+.task-com{
+    height: 100px;
+    width: 200px;
+    padding-top:10px ;
+    background-color: white;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    left: 50%;
+}
