@@ -1,10 +1,12 @@
 .List{
-    width: 600px;
-   
+    width: 500px;
     justify-content:center;
+    margin-left: 50px;
 }
 .List-header{
-    flex-direction: column;
+   
+    flex-direction: row;
+    margin: 10px;
 }
 .List-body{
     justify-content:center;
@@ -19,4 +21,7 @@
     border-radius: 10px;
     margin: 10px;
     left: 50%;
+}
+.List-button{
+    justify-content:center;
 }

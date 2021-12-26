@@ -13,13 +13,16 @@ class List extends Component{
             <div className='List'>
                 <div className='List-header'>
                     <h2>{this.props.title}</h2>
+                    
                 </div>
                
                 <div className='List-body'>
                     {comps.map(comp => {
                     return <TaskComponent />;
                     })}
-                     <button onClick={() => this.setState({ comps: comps.concat([Date.now()]) })}>add task</button>
+                    <div className='List-button'>
+                        <button variant="text" onClick={() => this.setState({ comps: comps.concat([Date.now()]) })}>add task</button>
+                    </div>
                 </div>
                
             </div>

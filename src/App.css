@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: rgb(246, 247, 249);
   min-height: 100vh;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .App-body{
+  text-align: left;
   display: flex;
   flex-direction: row;
 }
