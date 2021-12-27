@@ -7,8 +7,10 @@ function TaskComponent() {
         
         <Draggable className="task-draggable">
             <div className="task-com">
-                    <input type="checkbox" ></input> 
-                <label contenteditable="true">task name</label>
+                <div className='tc-title'>
+                    <input type="checkbox" className='checkbox'></input> 
+                    <label contenteditable="true">task name</label>
+                </div>
             </div>
            
         </Draggable>

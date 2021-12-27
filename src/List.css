@@ -4,24 +4,66 @@
     margin-left: 50px;
 }
 .List-header{
-   
+    display: flex;
     flex-direction: row;
     margin: 10px;
 }
 .List-body{
     justify-content:center;
 }
+.jiahao{
+    display:flex;
+    justify-content:right;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(246, 247, 249);
+    height: 30px;
+    font: 2em sans-serif;
+    color:rgb(103,106,111) ;
+}
 .task-com{
-    height: 100px;
-    width: 200px;
-    padding-top:10px ;
+    
+    height: 120px;
+    width: 300px;
+    padding-top:20px ;
+    padding-left:15px ;
     background-color: white;
     border: 1px solid transparent;
-    border-color: black;
+    border-color: rgb(236,236,236);
     border-radius: 10px;
     margin: 10px;
     left: 50%;
+    font-weight: 500;
 }
+.checkbox{
+    
+    -webkit-appearance: none;
+    background: url("checkbox.png");
+    background-size: 16px;
+    
+    height: 16px; 
+    vertical-align: middle;
+    width: 16px; 
+   
+}
+.checkbox:checked{
+    background: url("checked.png");
+    background-size: 16px;
+}
+
 .List-button{
-    justify-content:center;
+    display: flex;
+    padding-left: 80px;
+}
+
+.List-addbutton{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    font: 1em sans-serif;
+    color: rgb(103,106,111);
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
 }

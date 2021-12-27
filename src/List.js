@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import './List.css';
 import TaskComponent from './TaskComponent';
+
+
 
 class List extends Component{
     constructor(props) {
@@ -12,8 +15,8 @@ class List extends Component{
         return (
             <div className='List'>
                 <div className='List-header'>
-                    <h2>{this.props.title}</h2>
-                    
+                    <h3>{this.props.title}</h3>
+                    <Button className='jiahao'>+</Button>
                 </div>
                
                 <div className='List-body'>
@@ -21,7 +24,7 @@ class List extends Component{
                     return <TaskComponent />;
                     })}
                     <div className='List-button'>
-                        <button variant="text" onClick={() => this.setState({ comps: comps.concat([Date.now()]) })}>add task</button>
+                        <button className='List-addbutton' onClick={() => this.setState({ comps: comps.concat([Date.now()]) })}>+ Add task</button>
                     </div>
                 </div>
                

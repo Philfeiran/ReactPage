@@ -12,7 +12,7 @@ function App() {
           <List title="To do"></List>
           <List title="In Progress"></List>
           <List title="Done"></List>
-          <List title="Note and reference"></List>
+          <List title="Note & reference"></List>
       </div>
     </div>
   );
